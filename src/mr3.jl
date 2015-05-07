@@ -1,4 +1,8 @@
 # Factorization Type definitions
+
+# Reference: I.S. Dhillon, B.N. Parlett. Orthogonal Eigenvectors and Relative Gaps.
+# Siam J. Matrix Anal. Appl. Vol. 25, No. 3, pp. 858-899 (2003)
+
 module mr3
 
 export LDL, NDN, UDU, getvec
