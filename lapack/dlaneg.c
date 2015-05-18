@@ -118,11 +118,7 @@ int main(int argc, char *argv[]) {
 	printf("---------------------\n");
 	printf("testing dlaneg.c\n");
 	int negcnt;
-	//int n = 3;
-	//double sigma = 3.0;
-	//int r = 3;
-	//double * L = (double *) malloc((n-1) * sizeof(double));
-	//double * D = (double *) malloc(n * sizeof(double));
+	
 	vector<double> L(n-1);
 	vector<double> D(n);
 	for (int i = 0; i < n-1; i++) {
@@ -152,9 +148,7 @@ int main(int argc, char *argv[]) {
 	cout << "using LAPACK" << endl;
 	printf("Sturm count is %d\n", negcnt);
 
-	//free(L);
-	//free(D);
-	// vectors are freed at end of scope
+	
 	printf("---------------------\n");
 	return 0;
 }
